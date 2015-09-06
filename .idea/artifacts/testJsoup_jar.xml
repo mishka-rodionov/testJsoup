@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="testJsoup:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/testJsoup_jar</output-path>
+    <root id="archive" name="testJsoup.jar">
+      <element id="module-output" name="testJsoup" />
+      <element id="extracted-dir" path="D:/lib/java/apache-log4j-2.3-bin/log4j-api-2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/lib/java/apache-log4j-2.3-bin/log4j-core-2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/lib/java/jsoup-1.8.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/jre1.9.0/lib/jfxrt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/jre1.9.0/lib/deploy.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/jre1.9.0/lib/javaws.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/jre1.9.0/lib/jfxswt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/jre1.9.0/lib/plugin.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
