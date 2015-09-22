@@ -76,11 +76,24 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50163937">
-              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.8557377">
+              <caret line="252" column="60" selection-start-line="252" selection-start-column="60" selection-end-line="252" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1406#1442#0" expanded="false" />
+                <element signature="e#1522#1558#0" expanded="false" />
+                <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+                <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+                <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+                <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+                <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+                <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+                <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+                <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+                <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+                <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+                <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+                <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+                <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -103,6 +116,13 @@
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
@@ -153,8 +173,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -195,7 +215,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DetectDevice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -538,16 +558,18 @@
       <workItem from="1441305680156" duration="1230000" />
       <workItem from="1441451930528" duration="970000" />
       <workItem from="1441482760618" duration="1102000" />
-      <workItem from="1441560103971" duration="1201000" />
+      <workItem from="1441560103971" duration="1792000" />
+      <workItem from="1441648590796" duration="1727000" />
+      <workItem from="1442949482048" duration="1669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177554000" />
+    <option name="totallyTimeSpent" value="181541000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -558,7 +580,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15812592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15812592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -604,10 +626,71 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="204" column="17" selection-start-line="204" selection-start-column="17" selection-end-line="204" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -618,7 +701,20 @@
           <caret line="211" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -629,7 +725,20 @@
           <caret line="56" column="53" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -640,7 +749,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -651,7 +773,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -662,25 +797,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon_Aug_31_23_05_04_MSK_2015/score1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -691,7 +821,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -702,7 +845,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -713,7 +869,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -724,7 +893,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -735,7 +917,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -746,7 +941,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -757,7 +965,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -768,7 +989,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -779,7 +1013,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -790,7 +1037,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -801,7 +1061,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -812,7 +1085,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -823,7 +1109,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -834,7 +1133,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -845,7 +1157,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -856,7 +1181,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -867,7 +1205,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -878,7 +1229,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -889,7 +1253,44 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -901,167 +1302,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/outing.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wed_Jul_29_22_46_51_MSK_2015/score1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wed_Jul_29_22_46_51_MSK_2015/score2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wed_Jul_29_22_46_51_MSK_2015/score15.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wed_Jul_29_22_46_51_MSK_2015/score13.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon_Aug_31_23_11_08_MSK_2015/score1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon_Aug_31_23_05_04_MSK_2015/score1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon_Aug_31_23_11_08_MSK_2015/score2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon_Aug_31_23_11_08_MSK_2015/score3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon_Aug_31_23_11_08_MSK_2015/score4.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon_Aug_31_23_11_08_MSK_2015/score5.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon_Aug_31_23_11_08_MSK_2015/score6.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon_Aug_31_23_11_08_MSK_2015/score7.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon_Aug_31_23_11_08_MSK_2015/score8.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon_Aug_31_23_11_08_MSK_2015/score9.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon_Aug_31_23_11_08_MSK_2015/score10.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon_Aug_31_23_11_08_MSK_2015/score11.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon_Aug_31_23_11_08_MSK_2015/score12.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon_Aug_31_23_11_08_MSK_2015/score13.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon_Aug_31_23_11_08_MSK_2015/score14.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon_Aug_31_23_11_08_MSK_2015/score15.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon_Aug_31_23_11_08_MSK_2015/score16.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50163937">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.8557377">
+          <caret line="252" column="60" selection-start-line="252" selection-start-column="60" selection-end-line="252" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1406#1442#0" expanded="false" />
+            <element signature="e#1522#1558#0" expanded="false" />
+            <element signature="method#gameScore#0;class#Main#0" expanded="false" />
+            <element signature="method#commonGameScores#0;class#Main#0" expanded="false" />
+            <element signature="method#getBetGamePrice#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToLiveStats#0;class#Main#0" expanded="false" />
+            <element signature="method#printScoreToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#createScoreList#0;class#Main#0" expanded="false" />
+            <marker date="1442951153447" expanded="true" signature="17218:17427" placeholder="CREATE TABLE..scores..." />
+            <marker date="1442951153447" expanded="true" signature="17241:17319" placeholder="(id INTEGER,..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17805" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17890" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17891" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17936" placeholder="INSERT INTO ..." />
+            <marker date="1442951153447" expanded="true" signature="17793:17949" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>

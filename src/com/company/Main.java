@@ -12,6 +12,10 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.*;
 
 public class Main {
@@ -203,6 +207,56 @@ public class Main {
             key = iter.next();                                                          //
             doc = new org.bson.Document(key, liveStats.get(key));                       //Создание нового документа в коллекции БД
             mdbCollection.insertOne(doc);                                               //Запись документа в коллекцию.
+        }
+    }
+
+    public static void pushToPostgres(){
+        System.out.println("-------- PostgreSQL " + "JDBC Connection Testing ------------");
+        try {
+            Class.forName("org.postgresql.Driver");
+        } catch (ClassNotFoundException e) {
+            System.out.println("Where is your PostgreSQL JDBC Driver? " + "Include in your library path!");
+            e.printStackTrace();
+            return;
+        }
+        System.out.println("PostgreSQL JDBC Driver Registered!");
+        Connection connection = null;
+        try {
+            connection = DriverManager.getConnection(
+                    "jdbc:postgresql://127.0.0.1:5432/Statistic", "postgres", "987654");
+        } catch (SQLException e) {
+            System.out.println("Connection Failed! Check output console");
+            e.printStackTrace();
+            return;
+        }
+        if (connection != null) {
+            System.out.println("You made it, take control your database now!");
+        } else {
+            System.out.println("Failed to make connection!");
+        }
+        try{
+            Statement statement = connection.createStatement();
+            Set<String> playerNames = liveStats.keySet();                                   //Создание множества имен игроков
+            Iterator<String> iter = playerNames.iterator();                                 //Получение итератора по данному множеству
+            String key;
+            while(iter.hasNext()){
+                key = iter.next().replace(' ', '_');
+                statement.executeUpdate("CREATE TABLE "+ key + "(id INTEGER, SetNumber INTEGER , MatchScore VARCHAR(20), SetScore VARCHAR(20)," +
+                        " GameScore VARCHAR(20), Serve VARCHAR(4), Coef1 VARCHAR(10), Coef2 VARCHAR(10))");
+                LinkedList<String> scores = liveStats.get(key);
+                Iterator<String> linkedIter = scores.iterator();
+                int id = 1;
+                while(linkedIter.hasNext()){
+                    String[] score = linkedIter.next().split(" ");
+                    if (score.length == 5){
+                        statement.executeUpdate("INSERT INTO " + key + "id, SetNumber, MatchScore, SetScore, GameScore, Serve, Coef1, Coef2 VALUES "
+                                + id + ",'1'" + "'(0:0)'" +  );
+                    }
+                }
+            }
+
+        }catch(SQLException se){
+            se.printStackTrace();
         }
     }
 
